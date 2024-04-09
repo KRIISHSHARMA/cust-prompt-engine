@@ -21,3 +21,12 @@ export PATH=~/oh-my-posh:$PATH
 ``` sh
 oh-my-posh font install
 ```
+
+- Add the following to ~/.bashrc (could be ~/.profile or ~/.bash_profile depending on your environment):
+``` sh
+eval "$(oh-my-posh init bash)"
+```
+- Once added, reload your profile for the changes to take effect.
+``` sh
+exec bash
+```
