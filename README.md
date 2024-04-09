@@ -17,3 +17,7 @@ curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/ohmyposh
  ``` sh
 export PATH=~/oh-my-posh:$PATH
 ```
+- Install Font
+``` sh
+oh-my-posh font install
+```
